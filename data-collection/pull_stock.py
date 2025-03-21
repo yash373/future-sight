@@ -344,8 +344,5 @@ def get_stock_data(ticker):
     # regularMarketPrice
     regularMarketPrice = ticker.info.get("regularMarketPrice")
 
-    # trailingPegRatio
-    trailingPegRatio = ticker.info.get("trailingPegRatio")
-
 
 print(get_stock_data("RELIANCE.NS"))
