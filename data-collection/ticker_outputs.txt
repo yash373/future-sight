@@ -1,0 +1,852 @@
+__class__:
+<class 'yfinance.ticker.Ticker'>
+__delattr__:
+<method-wrapper '__delattr__' of Ticker object at 0x7f60dd4f34d0>
+__dict__:
+{'ticker': 'RELIANCE.NS', 'proxy': None, 'session': None, '_tz': None, '_isin': None, '_news': [], '_shares': None, '_earnings_dates': {}, '_earnings': None, '_financials': None, '_data': <yfinance.data.YfData object at 0x7f60dd4f3770>, '_price_history': None, '_analysis': <yfinance.scrapers.analysis.Analysis object at 0x7f60dd0a0050>, '_holders': <yfinance.scrapers.holders.Holders object at 0x7f60dd0a01a0>, '_quote': <yfinance.scrapers.quote.Quote object at 0x7f60dd0a02f0>, '_fundamentals': <yfinance.scrapers.fundamentals.Fundamentals object at 0x7f60dd0a0440>, '_funds_data': None, '_fast_info': None, '_expirations': {}, '_underlying': {}}
+__dir__:
+<built-in method __dir__ of Ticker object at 0x7f60dd4f34d0>
+__doc__:
+None
+__eq__:
+<method-wrapper '__eq__' of Ticker object at 0x7f60dd4f34d0>
+__firstlineno__:
+33
+__format__:
+<built-in method __format__ of Ticker object at 0x7f60dd4f34d0>
+__ge__:
+<method-wrapper '__ge__' of Ticker object at 0x7f60dd4f34d0>
+__getattribute__:
+<method-wrapper '__getattribute__' of Ticker object at 0x7f60dd4f34d0>
+__getstate__:
+<built-in method __getstate__ of Ticker object at 0x7f60dd4f34d0>
+__gt__:
+<method-wrapper '__gt__' of Ticker object at 0x7f60dd4f34d0>
+__hash__:
+<method-wrapper '__hash__' of Ticker object at 0x7f60dd4f34d0>
+__init__:
+<bound method Ticker.__init__ of yfinance.Ticker object <RELIANCE.NS>>
+__init_subclass__:
+<built-in method __init_subclass__ of type object at 0x556ddc63a060>
+__le__:
+<method-wrapper '__le__' of Ticker object at 0x7f60dd4f34d0>
+__lt__:
+<method-wrapper '__lt__' of Ticker object at 0x7f60dd4f34d0>
+__module__:
+yfinance.ticker
+__ne__:
+<method-wrapper '__ne__' of Ticker object at 0x7f60dd4f34d0>
+__new__:
+<built-in method __new__ of type object at 0x7f60fbb04100>
+__reduce__:
+<built-in method __reduce__ of Ticker object at 0x7f60dd4f34d0>
+__reduce_ex__:
+<built-in method __reduce_ex__ of Ticker object at 0x7f60dd4f34d0>
+__repr__:
+<bound method Ticker.__repr__ of yfinance.Ticker object <RELIANCE.NS>>
+__setattr__:
+<method-wrapper '__setattr__' of Ticker object at 0x7f60dd4f34d0>
+__sizeof__:
+<built-in method __sizeof__ of Ticker object at 0x7f60dd4f34d0>
+__static_attributes__:
+('_expirations', '_underlying')
+__str__:
+<method-wrapper '__str__' of Ticker object at 0x7f60dd4f34d0>
+__subclasshook__:
+<built-in method __subclasshook__ of type object at 0x556ddc63a060>
+__weakref__:
+None
+_analysis:
+<yfinance.scrapers.analysis.Analysis object at 0x7f60dd0a0050>
+_data:
+<yfinance.data.YfData object at 0x7f60dd4f3770>
+_download_options:
+<bound method Ticker._download_options of yfinance.Ticker object <RELIANCE.NS>>
+_earnings:
+None
+_earnings_dates:
+{}
+_expirations:
+{}
+_fast_info:
+None
+_fetch_ticker_tz:
+<bound method TickerBase._fetch_ticker_tz of yfinance.Ticker object <RELIANCE.NS>>
+_financials:
+None
+_fundamentals:
+<yfinance.scrapers.fundamentals.Fundamentals object at 0x7f60dd0a0440>
+_funds_data:
+None
+_get_ticker_tz:
+<bound method TickerBase._get_ticker_tz of yfinance.Ticker object <RELIANCE.NS>>
+_holders:
+<yfinance.scrapers.holders.Holders object at 0x7f60dd0a01a0>
+_isin:
+None
+_lazy_load_price_history:
+<bound method TickerBase._lazy_load_price_history of yfinance.Ticker object <RELIANCE.NS>>
+_news:
+[]
+_options2df:
+<bound method Ticker._options2df of yfinance.Ticker object <RELIANCE.NS>>
+_price_history:
+None
+_quote:
+<yfinance.scrapers.quote.Quote object at 0x7f60dd0a02f0>
+_shares:
+None
+_tz:
+None
+_underlying:
+{}
+actions:
+                           Dividends  Stock Splits
+Date                                              
+1996-05-24 00:00:00+05:30   0.371479           0.0
+1997-05-16 00:00:00+05:30   0.402435           0.0
+1997-10-27 00:00:00+05:30   0.000000           2.0
+1998-05-06 00:00:00+05:30   0.866784           0.0
+1999-05-07 00:00:00+05:30   0.464348           0.0
+2000-04-06 00:00:00+05:30   0.495305           0.0
+2001-04-26 00:00:00+05:30   0.526262           0.0
+2002-10-23 00:00:00+05:30   1.176349           0.0
+2003-05-23 00:00:00+05:30   0.619131           0.0
+2004-05-20 00:00:00+05:30   1.300176           0.0
+2005-05-12 00:00:00+05:30   1.857394           0.0
+2006-06-01 00:00:00+05:30   1.238263           0.0
+2007-03-21 00:00:00+05:30   2.724178           0.0
+2008-05-08 00:00:00+05:30   1.609741           0.0
+2009-10-16 00:00:00+05:30   1.609741           0.0
+2009-11-26 00:00:00+05:30   0.000000           2.0
+2010-05-10 00:00:00+05:30   1.733568           0.0
+2011-05-05 00:00:00+05:30   3.962440           0.0
+2012-05-31 00:00:00+05:30   4.210093           0.0
+2013-05-10 00:00:00+05:30   2.228873           0.0
+2014-05-16 00:00:00+05:30   2.352699           0.0
+2015-05-08 00:00:00+05:30   4.953050           0.0
+2016-03-17 00:00:00+05:30   5.200703           0.0
+2017-07-13 00:00:00+05:30   5.448355           0.0
+2017-09-07 00:00:00+05:30   0.000000           2.0
+2018-06-27 00:00:00+05:30   2.971830           0.0
+2019-08-02 00:00:00+05:30   3.219483           0.0
+2020-07-02 00:00:00+05:30   3.250000           0.0
+2021-06-11 00:00:00+05:30   7.000000           0.0
+2022-08-18 00:00:00+05:30   4.000000           0.0
+2023-08-21 00:00:00+05:30   9.000000           0.0
+2024-08-19 00:00:00+05:30   5.000000           0.0
+2024-10-28 00:00:00+05:30   0.000000           2.0
+analyst_price_targets:
+{'current': 1276.35, 'high': 1827.0, 'low': 1300.0, 'mean': 1558.3529, 'median': 1554.5}
+balance_sheet:
+                                                       2024-03-31  ... 2020-03-31
+Ordinary Shares Number                              13532218028.0  ...        NaN
+Share Issued                                        13532218028.0  ...        NaN
+Net Debt                                          2310820000000.0  ...        NaN
+Total Debt                                        3461420000000.0  ...        NaN
+Tangible Book Value                               4331070000000.0  ...        NaN
+...                                                           ...  ...        ...
+Cash Cash Equivalents And Short Term Investments  2113100000000.0  ...        NaN
+Other Short Term Investments                      1177700000000.0  ...        NaN
+Cash And Cash Equivalents                          935400000000.0  ...        NaN
+Cash Equivalents                                   195280000000.0  ...        NaN
+Cash Financial                                     740120000000.0  ...        NaN
+
+[78 rows x 5 columns]
+balancesheet:
+                                                       2024-03-31  ... 2020-03-31
+Ordinary Shares Number                              13532218028.0  ...        NaN
+Share Issued                                        13532218028.0  ...        NaN
+Net Debt                                          2310820000000.0  ...        NaN
+Total Debt                                        3461420000000.0  ...        NaN
+Tangible Book Value                               4331070000000.0  ...        NaN
+...                                                           ...  ...        ...
+Cash Cash Equivalents And Short Term Investments  2113100000000.0  ...        NaN
+Other Short Term Investments                      1177700000000.0  ...        NaN
+Cash And Cash Equivalents                          935400000000.0  ...        NaN
+Cash Equivalents                                   195280000000.0  ...        NaN
+Cash Financial                                     740120000000.0  ...        NaN
+
+[78 rows x 5 columns]
+basic_info:
+lazy-loading dict with keys = ['currency', 'dayHigh', 'dayLow', 'exchange', 'fiftyDayAverage', 'lastPrice', 'lastVolume', 'marketCap', 'open', 'previousClose', 'quoteType', 'regularMarketPreviousClose', 'shares', 'tenDayAverageVolume', 'threeMonthAverageVolume', 'timezone', 'twoHundredDayAverage', 'yearChange', 'yearHigh', 'yearLow']
+calendar:
+{'Ex-Dividend Date': datetime.date(2024, 8, 19), 'Earnings Date': [datetime.date(2025, 4, 21), datetime.date(2025, 4, 25)], 'Earnings High': 14.52, 'Earnings Low': 10.97, 'Earnings Average': 12.71111, 'Revenue High': 2381000000000, 'Revenue Low': 2381000000000, 'Revenue Average': 2381000000000}
+capital_gains:
+Series([], dtype: object)
+cash_flow:
+                                                  2024-03-31  ...      2020-03-31
+Free Cash Flow                                 59050000000.0  ...             NaN
+Repayment Of Debt                            -350550000000.0  ...             NaN
+Issuance Of Debt                              696100000000.0  ...             NaN
+Issuance Of Capital Stock                         70000000.0  ...             NaN
+Capital Expenditure                         -1528830000000.0  ...             NaN
+End Cash Position                             972250000000.0  ...             NaN
+Other Cash Adjustment Outside Changein Cash     7200000000.0  ...             NaN
+Beginning Cash Position                       686640000000.0  ...             NaN
+Changes In Cash                               278410000000.0  ...             NaN
+Financing Cash Flow                          -166460000000.0  ...             NaN
+Net Other Financing Charges                   198300000000.0  ...             NaN
+Interest Paid Cff                            -371730000000.0  ...             NaN
+Cash Dividends Paid                           -60890000000.0  ...             NaN
+Common Stock Dividend Paid                               NaN  ...  -45920000000.0
+Net Common Stock Issuance                         70000000.0  ...             NaN
+Common Stock Issuance                             70000000.0  ...             NaN
+Net Issuance Payments Of Debt                  92620000000.0  ...             NaN
+Net Short Term Debt Issuance                 -252930000000.0  ...             NaN
+Net Long Term Debt Issuance                   345550000000.0  ...             NaN
+Long Term Debt Payments                      -350550000000.0  ...             NaN
+Long Term Debt Issuance                       696100000000.0  ...             NaN
+Investing Cash Flow                         -1143010000000.0  ...             NaN
+Net Other Investing Changes                   -44230000000.0  ... -164390000000.0
+Interest Received Cfi                         106480000000.0  ...             NaN
+Dividends Received Cfi                           750000000.0  ...             NaN
+Net Investment Purchase And Sale              169750000000.0  ...             NaN
+Sale Of Investment                           5313550000000.0  ...             NaN
+Purchase Of Investment                      -5143800000000.0  ...             NaN
+Net PPE Purchase And Sale                     153070000000.0  ...             NaN
+Sale Of PPE                                   153070000000.0  ...             NaN
+Purchase Of PPE                                          NaN  ... -765170000000.0
+Capital Expenditure Reported                -1528830000000.0  ... -765170000000.0
+Operating Cash Flow                          1587880000000.0  ...             NaN
+Taxes Refund Paid                            -119610000000.0  ...             NaN
+Change In Working Capital                      63660000000.0  ...             NaN
+Change In Payable                             347960000000.0  ...             NaN
+Change In Inventory                          -127560000000.0  ...             NaN
+Change In Receivables                        -156740000000.0  ...             NaN
+Other Non Cash Items                          111900000000.0  ...             NaN
+Provisionand Write Offof Assets                          NaN  ...             NaN
+Deferred Tax                                             NaN  ...   -9480000000.0
+Depreciation And Amortization                 508320000000.0  ...             NaN
+Depreciation                                  508320000000.0  ...             NaN
+Gain Loss On Investment Securities            -20100000000.0  ...             NaN
+Net Foreign Currency Exchange Gain Loss        -1470000000.0  ...             NaN
+Gain Loss On Sale Of PPE                        1780000000.0  ...             NaN
+Gain Loss On Sale Of Business                            NaN  ...     110000000.0
+Net Income From Continuing Operations        1047270000000.0  ...             NaN
+
+[48 rows x 5 columns]
+cashflow:
+                                                  2024-03-31  ...      2020-03-31
+Free Cash Flow                                 59050000000.0  ...             NaN
+Repayment Of Debt                            -350550000000.0  ...             NaN
+Issuance Of Debt                              696100000000.0  ...             NaN
+Issuance Of Capital Stock                         70000000.0  ...             NaN
+Capital Expenditure                         -1528830000000.0  ...             NaN
+End Cash Position                             972250000000.0  ...             NaN
+Other Cash Adjustment Outside Changein Cash     7200000000.0  ...             NaN
+Beginning Cash Position                       686640000000.0  ...             NaN
+Changes In Cash                               278410000000.0  ...             NaN
+Financing Cash Flow                          -166460000000.0  ...             NaN
+Net Other Financing Charges                   198300000000.0  ...             NaN
+Interest Paid Cff                            -371730000000.0  ...             NaN
+Cash Dividends Paid                           -60890000000.0  ...             NaN
+Common Stock Dividend Paid                               NaN  ...  -45920000000.0
+Net Common Stock Issuance                         70000000.0  ...             NaN
+Common Stock Issuance                             70000000.0  ...             NaN
+Net Issuance Payments Of Debt                  92620000000.0  ...             NaN
+Net Short Term Debt Issuance                 -252930000000.0  ...             NaN
+Net Long Term Debt Issuance                   345550000000.0  ...             NaN
+Long Term Debt Payments                      -350550000000.0  ...             NaN
+Long Term Debt Issuance                       696100000000.0  ...             NaN
+Investing Cash Flow                         -1143010000000.0  ...             NaN
+Net Other Investing Changes                   -44230000000.0  ... -164390000000.0
+Interest Received Cfi                         106480000000.0  ...             NaN
+Dividends Received Cfi                           750000000.0  ...             NaN
+Net Investment Purchase And Sale              169750000000.0  ...             NaN
+Sale Of Investment                           5313550000000.0  ...             NaN
+Purchase Of Investment                      -5143800000000.0  ...             NaN
+Net PPE Purchase And Sale                     153070000000.0  ...             NaN
+Sale Of PPE                                   153070000000.0  ...             NaN
+Purchase Of PPE                                          NaN  ... -765170000000.0
+Capital Expenditure Reported                -1528830000000.0  ... -765170000000.0
+Operating Cash Flow                          1587880000000.0  ...             NaN
+Taxes Refund Paid                            -119610000000.0  ...             NaN
+Change In Working Capital                      63660000000.0  ...             NaN
+Change In Payable                             347960000000.0  ...             NaN
+Change In Inventory                          -127560000000.0  ...             NaN
+Change In Receivables                        -156740000000.0  ...             NaN
+Other Non Cash Items                          111900000000.0  ...             NaN
+Provisionand Write Offof Assets                          NaN  ...             NaN
+Deferred Tax                                             NaN  ...   -9480000000.0
+Depreciation And Amortization                 508320000000.0  ...             NaN
+Depreciation                                  508320000000.0  ...             NaN
+Gain Loss On Investment Securities            -20100000000.0  ...             NaN
+Net Foreign Currency Exchange Gain Loss        -1470000000.0  ...             NaN
+Gain Loss On Sale Of PPE                        1780000000.0  ...             NaN
+Gain Loss On Sale Of Business                            NaN  ...     110000000.0
+Net Income From Continuing Operations        1047270000000.0  ...             NaN
+
+[48 rows x 5 columns]
+dividends:
+Date
+1996-05-24 00:00:00+05:30    0.371479
+1997-05-16 00:00:00+05:30    0.402435
+1998-05-06 00:00:00+05:30    0.866784
+1999-05-07 00:00:00+05:30    0.464348
+2000-04-06 00:00:00+05:30    0.495305
+2001-04-26 00:00:00+05:30    0.526262
+2002-10-23 00:00:00+05:30    1.176349
+2003-05-23 00:00:00+05:30    0.619131
+2004-05-20 00:00:00+05:30    1.300176
+2005-05-12 00:00:00+05:30    1.857394
+2006-06-01 00:00:00+05:30    1.238263
+2007-03-21 00:00:00+05:30    2.724178
+2008-05-08 00:00:00+05:30    1.609741
+2009-10-16 00:00:00+05:30    1.609741
+2010-05-10 00:00:00+05:30    1.733568
+2011-05-05 00:00:00+05:30    3.962440
+2012-05-31 00:00:00+05:30    4.210093
+2013-05-10 00:00:00+05:30    2.228873
+2014-05-16 00:00:00+05:30    2.352699
+2015-05-08 00:00:00+05:30    4.953050
+2016-03-17 00:00:00+05:30    5.200703
+2017-07-13 00:00:00+05:30    5.448355
+2018-06-27 00:00:00+05:30    2.971830
+2019-08-02 00:00:00+05:30    3.219483
+2020-07-02 00:00:00+05:30    3.250000
+2021-06-11 00:00:00+05:30    7.000000
+2022-08-18 00:00:00+05:30    4.000000
+2023-08-21 00:00:00+05:30    9.000000
+2024-08-19 00:00:00+05:30    5.000000
+Name: Dividends, dtype: float64
+earnings:
+None
+earnings_dates:
+                           EPS Estimate  Reported EPS  Surprise(%)
+Earnings Date                                                     
+2026-01-14 05:30:00+05:30           NaN           NaN          NaN
+2025-10-13 05:30:00+05:30           NaN           NaN          NaN
+2025-07-17 05:30:00+05:30           NaN           NaN          NaN
+2025-04-21 05:30:00+05:30           NaN           NaN          NaN
+2025-01-16 05:30:00+05:30         16.94         13.70       -19.15
+2024-10-14 05:30:00+05:30         13.17         12.24        -7.03
+2024-07-19 05:30:00+05:30         23.77         22.37        -5.90
+2024-04-22 05:30:00+05:30         32.13         28.01       -12.82
+2024-01-19 05:30:00+05:30         27.20         25.52        -6.18
+2023-10-27 05:30:00+05:30         27.25         25.71        -5.65
+2023-07-21 05:30:00+05:30         27.09         23.66       -12.65
+2023-04-21 05:30:00+05:30         28.41         28.52         0.39
+earnings_estimate:
+             avg    low   high  yearAgoEps  numberOfAnalysts  growth
+period                                                              
+0q      12.71111  10.97  14.52    14.00500                 3 -0.0924
++1q     12.31000  12.31  12.31    11.18500                 1  0.1006
+0y      51.67971  43.50  57.00    51.45000                33  0.0045
++1y     60.62294  49.20  71.09    51.67971                33  0.1731
+earnings_history:
+            epsActual  epsEstimate  epsDifference  surprisePercent
+quarter                                                           
+2024-03-31     14.005     14.93237          -0.93          -0.0621
+2024-06-30     11.185     12.81000          -1.63          -0.1269
+2024-09-30     12.240     12.99056          -0.75          -0.0578
+2024-12-31     13.700     13.38698           0.31           0.0234
+eps_revisions:
+        upLast7days  upLast30days  downLast30days  downLast7Days
+period                                                          
+0q                0             0               3              3
++1q               1             1               0              0
+0y                4             7               1              2
++1y               1             3               5              5
+eps_trend:
+         current  7daysAgo  30daysAgo  60daysAgo  90daysAgo
+period                                                     
+0q      12.71111  13.53657   14.20657   14.20657   15.09735
++1q     12.31000  12.31000   12.31000   12.31000   12.30500
+0y      31.40000  31.40000   31.40000   23.22500   23.85000
++1y     35.83333  36.43333   36.43333   26.07500   29.47500
+fast_info:
+lazy-loading dict with keys = ['currency', 'dayHigh', 'dayLow', 'exchange', 'fiftyDayAverage', 'lastPrice', 'lastVolume', 'marketCap', 'open', 'previousClose', 'quoteType', 'regularMarketPreviousClose', 'shares', 'tenDayAverageVolume', 'threeMonthAverageVolume', 'timezone', 'twoHundredDayAverage', 'yearChange', 'yearHigh', 'yearLow']
+financials:
+                                                         2024-03-31  ...     2020-03-31
+Tax Effect Of Unusual Items                            4065480000.0  ...            NaN
+Tax Rate For Calcs                                           0.2455  ...            NaN
+Normalized EBITDA                                   1756750000000.0  ...            NaN
+Total Unusual Items                                   16560000000.0  ...            NaN
+Total Unusual Items Excluding Goodwill                16560000000.0  ...            NaN
+Net Income From Continuing Operation Net Minori...   696210000000.0  ...            NaN
+Reconciled Depreciation                              508320000000.0  ...            NaN
+Reconciled Cost Of Revenue                          6745990000000.0  ...            NaN
+EBITDA                                              1773310000000.0  ...            NaN
+EBIT                                                1264990000000.0  ...            NaN
+Net Interest Income                                 -111900000000.0  ...            NaN
+Interest Expense                                     217720000000.0  ...            NaN
+Interest Income                                      107450000000.0  ...            NaN
+Normalized Income                                    683715480000.0  ...            NaN
+Net Income From Continuing And Discontinued Ope...   696210000000.0  ...            NaN
+Total Expenses                                      7893980000000.0  ...            NaN
+Rent Expense Supplemental                              7150000000.0  ...            NaN
+Diluted Average Shares                                13532481372.0  ...            NaN
+Basic Average Shares                                  13531621632.0  ...            NaN
+Diluted EPS                                                   51.45  ...            NaN
+Basic EPS                                                     51.45  ...            NaN
+Diluted NI Availto Com Stockholders                  696210000000.0  ...            NaN
+Net Income Common Stockholders                       696210000000.0  ...            NaN
+Otherunder Preferred Stock Dividend                             0.0  ...            NaN
+Net Income                                           696210000000.0  ...            NaN
+Minority Interests                                   -93990000000.0  ...            NaN
+Net Income Including Noncontrolling Interests        790200000000.0  ...            NaN
+Net Income Discontinuous Operations                             0.0  ...            NaN
+Net Income Continuous Operations                     790200000000.0  ...            NaN
+Tax Provision                                        257070000000.0  ...            NaN
+Pretax Income                                       1047270000000.0  ...            NaN
+Other Non Operating Income Expenses                   33020000000.0  ...            NaN
+Special Income Charges                                -2650000000.0  ...            NaN
+Other Special Charges                                  2650000000.0  ...            NaN
+Write Off                                                       NaN  ...            0.0
+Restructuring And Mergern Acquisition                           NaN  ...  44440000000.0
+Net Non Operating Interest Income Expense           -111900000000.0  ...            NaN
+Total Other Finance Cost                               1630000000.0  ...            NaN
+Interest Expense Non Operating                       217720000000.0  ...            NaN
+Interest Income Non Operating                        107450000000.0  ...            NaN
+Operating Income                                    1116660000000.0  ...            NaN
+Operating Expense                                   1147990000000.0  ...            NaN
+Other Operating Expenses                             530450000000.0  ...            NaN
+Selling General And Administration                   371420000000.0  ...            NaN
+Selling And Marketing Expense                        209890000000.0  ...            NaN
+General And Administrative Expense                   161530000000.0  ...            NaN
+Rent And Landing Fees                                  6010000000.0  ...            NaN
+Gross Profit                                        2264650000000.0  ...            NaN
+Cost Of Revenue                                     6745990000000.0  ...            NaN
+Total Revenue                                       9010640000000.0  ...            NaN
+Operating Revenue                                   9010640000000.0  ...            NaN
+
+[51 rows x 5 columns]
+funds_data:
+<yfinance.scrapers.funds.FundsData object at 0x7f60dd0a0ec0>
+get_actions:
+<bound method TickerBase.get_actions of yfinance.Ticker object <RELIANCE.NS>>
+get_analyst_price_targets:
+<bound method TickerBase.get_analyst_price_targets of yfinance.Ticker object <RELIANCE.NS>>
+get_balance_sheet:
+<bound method TickerBase.get_balance_sheet of yfinance.Ticker object <RELIANCE.NS>>
+get_balancesheet:
+<bound method TickerBase.get_balancesheet of yfinance.Ticker object <RELIANCE.NS>>
+get_calendar:
+<bound method TickerBase.get_calendar of yfinance.Ticker object <RELIANCE.NS>>
+get_capital_gains:
+<bound method TickerBase.get_capital_gains of yfinance.Ticker object <RELIANCE.NS>>
+get_cash_flow:
+<bound method TickerBase.get_cash_flow of yfinance.Ticker object <RELIANCE.NS>>
+get_cashflow:
+<bound method TickerBase.get_cashflow of yfinance.Ticker object <RELIANCE.NS>>
+get_dividends:
+<bound method TickerBase.get_dividends of yfinance.Ticker object <RELIANCE.NS>>
+get_earnings:
+<bound method TickerBase.get_earnings of yfinance.Ticker object <RELIANCE.NS>>
+get_earnings_dates:
+<bound method TickerBase.get_earnings_dates of yfinance.Ticker object <RELIANCE.NS>>
+get_earnings_estimate:
+<bound method TickerBase.get_earnings_estimate of yfinance.Ticker object <RELIANCE.NS>>
+get_earnings_history:
+<bound method TickerBase.get_earnings_history of yfinance.Ticker object <RELIANCE.NS>>
+get_eps_revisions:
+<bound method TickerBase.get_eps_revisions of yfinance.Ticker object <RELIANCE.NS>>
+get_eps_trend:
+<bound method TickerBase.get_eps_trend of yfinance.Ticker object <RELIANCE.NS>>
+get_fast_info:
+<bound method TickerBase.get_fast_info of yfinance.Ticker object <RELIANCE.NS>>
+get_financials:
+<bound method TickerBase.get_financials of yfinance.Ticker object <RELIANCE.NS>>
+get_funds_data:
+<bound method TickerBase.get_funds_data of yfinance.Ticker object <RELIANCE.NS>>
+get_growth_estimates:
+<bound method TickerBase.get_growth_estimates of yfinance.Ticker object <RELIANCE.NS>>
+get_history_metadata:
+<bound method TickerBase.get_history_metadata of yfinance.Ticker object <RELIANCE.NS>>
+get_income_stmt:
+<bound method TickerBase.get_income_stmt of yfinance.Ticker object <RELIANCE.NS>>
+get_incomestmt:
+<bound method TickerBase.get_incomestmt of yfinance.Ticker object <RELIANCE.NS>>
+get_info:
+<bound method TickerBase.get_info of yfinance.Ticker object <RELIANCE.NS>>
+get_insider_purchases:
+<bound method TickerBase.get_insider_purchases of yfinance.Ticker object <RELIANCE.NS>>
+get_insider_roster_holders:
+<bound method TickerBase.get_insider_roster_holders of yfinance.Ticker object <RELIANCE.NS>>
+get_insider_transactions:
+<bound method TickerBase.get_insider_transactions of yfinance.Ticker object <RELIANCE.NS>>
+get_institutional_holders:
+<bound method TickerBase.get_institutional_holders of yfinance.Ticker object <RELIANCE.NS>>
+get_isin:
+<bound method TickerBase.get_isin of yfinance.Ticker object <RELIANCE.NS>>
+get_major_holders:
+<bound method TickerBase.get_major_holders of yfinance.Ticker object <RELIANCE.NS>>
+get_mutualfund_holders:
+<bound method TickerBase.get_mutualfund_holders of yfinance.Ticker object <RELIANCE.NS>>
+get_news:
+<bound method TickerBase.get_news of yfinance.Ticker object <RELIANCE.NS>>
+get_recommendations:
+<bound method TickerBase.get_recommendations of yfinance.Ticker object <RELIANCE.NS>>
+get_recommendations_summary:
+<bound method TickerBase.get_recommendations_summary of yfinance.Ticker object <RELIANCE.NS>>
+get_revenue_estimate:
+<bound method TickerBase.get_revenue_estimate of yfinance.Ticker object <RELIANCE.NS>>
+get_sec_filings:
+<bound method TickerBase.get_sec_filings of yfinance.Ticker object <RELIANCE.NS>>
+get_shares:
+<bound method TickerBase.get_shares of yfinance.Ticker object <RELIANCE.NS>>
+get_shares_full:
+<bound method TickerBase.get_shares_full of yfinance.Ticker object <RELIANCE.NS>>
+get_splits:
+<bound method TickerBase.get_splits of yfinance.Ticker object <RELIANCE.NS>>
+get_sustainability:
+<bound method TickerBase.get_sustainability of yfinance.Ticker object <RELIANCE.NS>>
+get_upgrades_downgrades:
+<bound method TickerBase.get_upgrades_downgrades of yfinance.Ticker object <RELIANCE.NS>>
+growth_estimates:
+        stockTrend  indexTrend
+period                        
+0q         -0.0924      0.1619
++1q         0.1006      0.0693
+0y          0.0045      0.1037
++1y         0.1731      0.1431
+LTG            NaN      0.1030
+history:
+<bound method TickerBase.history of yfinance.Ticker object <RELIANCE.NS>>
+history_metadata:
+{'currency': 'INR', 'symbol': 'RELIANCE.NS', 'exchangeName': 'NSI', 'fullExchangeName': 'NSE', 'instrumentType': 'EQUITY', 'firstTradeDate': 820467900, 'regularMarketTime': 1742551200, 'hasPrePostMarketData': False, 'gmtoffset': 19800, 'timezone': 'IST', 'exchangeTimezoneName': 'Asia/Kolkata', 'regularMarketPrice': 1276.35, 'fiftyTwoWeekHigh': 1608.8, 'fiftyTwoWeekLow': 1156.0, 'regularMarketDayHigh': 1281.0, 'regularMarketDayLow': 1270.1, 'regularMarketVolume': 21775832, 'longName': 'Reliance Industries Limited', 'shortName': 'RELIANCE INDUSTRIES LTD', 'chartPreviousClose': 7.346, 'priceHint': 2, 'currentTradingPeriod': {'pre': {'timezone': 'IST', 'end': 1742528700, 'start': 1742528700, 'gmtoffset': 19800}, 'regular': {'timezone': 'IST', 'end': 1742551200, 'start': 1742528700, 'gmtoffset': 19800}, 'post': {'timezone': 'IST', 'end': 1742551200, 'start': 1742551200, 'gmtoffset': 19800}}, 'dataGranularity': '1d', 'range': '', 'validRanges': ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']}
+income_stmt:
+                                                         2024-03-31  ...     2020-03-31
+Tax Effect Of Unusual Items                            4065480000.0  ...            NaN
+Tax Rate For Calcs                                           0.2455  ...            NaN
+Normalized EBITDA                                   1756750000000.0  ...            NaN
+Total Unusual Items                                   16560000000.0  ...            NaN
+Total Unusual Items Excluding Goodwill                16560000000.0  ...            NaN
+Net Income From Continuing Operation Net Minori...   696210000000.0  ...            NaN
+Reconciled Depreciation                              508320000000.0  ...            NaN
+Reconciled Cost Of Revenue                          6745990000000.0  ...            NaN
+EBITDA                                              1773310000000.0  ...            NaN
+EBIT                                                1264990000000.0  ...            NaN
+Net Interest Income                                 -111900000000.0  ...            NaN
+Interest Expense                                     217720000000.0  ...            NaN
+Interest Income                                      107450000000.0  ...            NaN
+Normalized Income                                    683715480000.0  ...            NaN
+Net Income From Continuing And Discontinued Ope...   696210000000.0  ...            NaN
+Total Expenses                                      7893980000000.0  ...            NaN
+Rent Expense Supplemental                              7150000000.0  ...            NaN
+Diluted Average Shares                                13532481372.0  ...            NaN
+Basic Average Shares                                  13531621632.0  ...            NaN
+Diluted EPS                                                   51.45  ...            NaN
+Basic EPS                                                     51.45  ...            NaN
+Diluted NI Availto Com Stockholders                  696210000000.0  ...            NaN
+Net Income Common Stockholders                       696210000000.0  ...            NaN
+Otherunder Preferred Stock Dividend                             0.0  ...            NaN
+Net Income                                           696210000000.0  ...            NaN
+Minority Interests                                   -93990000000.0  ...            NaN
+Net Income Including Noncontrolling Interests        790200000000.0  ...            NaN
+Net Income Discontinuous Operations                             0.0  ...            NaN
+Net Income Continuous Operations                     790200000000.0  ...            NaN
+Tax Provision                                        257070000000.0  ...            NaN
+Pretax Income                                       1047270000000.0  ...            NaN
+Other Non Operating Income Expenses                   33020000000.0  ...            NaN
+Special Income Charges                                -2650000000.0  ...            NaN
+Other Special Charges                                  2650000000.0  ...            NaN
+Write Off                                                       NaN  ...            0.0
+Restructuring And Mergern Acquisition                           NaN  ...  44440000000.0
+Net Non Operating Interest Income Expense           -111900000000.0  ...            NaN
+Total Other Finance Cost                               1630000000.0  ...            NaN
+Interest Expense Non Operating                       217720000000.0  ...            NaN
+Interest Income Non Operating                        107450000000.0  ...            NaN
+Operating Income                                    1116660000000.0  ...            NaN
+Operating Expense                                   1147990000000.0  ...            NaN
+Other Operating Expenses                             530450000000.0  ...            NaN
+Selling General And Administration                   371420000000.0  ...            NaN
+Selling And Marketing Expense                        209890000000.0  ...            NaN
+General And Administrative Expense                   161530000000.0  ...            NaN
+Rent And Landing Fees                                  6010000000.0  ...            NaN
+Gross Profit                                        2264650000000.0  ...            NaN
+Cost Of Revenue                                     6745990000000.0  ...            NaN
+Total Revenue                                       9010640000000.0  ...            NaN
+Operating Revenue                                   9010640000000.0  ...            NaN
+
+[51 rows x 5 columns]
+incomestmt:
+                                                         2024-03-31  ...     2020-03-31
+Tax Effect Of Unusual Items                            4065480000.0  ...            NaN
+Tax Rate For Calcs                                           0.2455  ...            NaN
+Normalized EBITDA                                   1756750000000.0  ...            NaN
+Total Unusual Items                                   16560000000.0  ...            NaN
+Total Unusual Items Excluding Goodwill                16560000000.0  ...            NaN
+Net Income From Continuing Operation Net Minori...   696210000000.0  ...            NaN
+Reconciled Depreciation                              508320000000.0  ...            NaN
+Reconciled Cost Of Revenue                          6745990000000.0  ...            NaN
+EBITDA                                              1773310000000.0  ...            NaN
+EBIT                                                1264990000000.0  ...            NaN
+Net Interest Income                                 -111900000000.0  ...            NaN
+Interest Expense                                     217720000000.0  ...            NaN
+Interest Income                                      107450000000.0  ...            NaN
+Normalized Income                                    683715480000.0  ...            NaN
+Net Income From Continuing And Discontinued Ope...   696210000000.0  ...            NaN
+Total Expenses                                      7893980000000.0  ...            NaN
+Rent Expense Supplemental                              7150000000.0  ...            NaN
+Diluted Average Shares                                13532481372.0  ...            NaN
+Basic Average Shares                                  13531621632.0  ...            NaN
+Diluted EPS                                                   51.45  ...            NaN
+Basic EPS                                                     51.45  ...            NaN
+Diluted NI Availto Com Stockholders                  696210000000.0  ...            NaN
+Net Income Common Stockholders                       696210000000.0  ...            NaN
+Otherunder Preferred Stock Dividend                             0.0  ...            NaN
+Net Income                                           696210000000.0  ...            NaN
+Minority Interests                                   -93990000000.0  ...            NaN
+Net Income Including Noncontrolling Interests        790200000000.0  ...            NaN
+Net Income Discontinuous Operations                             0.0  ...            NaN
+Net Income Continuous Operations                     790200000000.0  ...            NaN
+Tax Provision                                        257070000000.0  ...            NaN
+Pretax Income                                       1047270000000.0  ...            NaN
+Other Non Operating Income Expenses                   33020000000.0  ...            NaN
+Special Income Charges                                -2650000000.0  ...            NaN
+Other Special Charges                                  2650000000.0  ...            NaN
+Write Off                                                       NaN  ...            0.0
+Restructuring And Mergern Acquisition                           NaN  ...  44440000000.0
+Net Non Operating Interest Income Expense           -111900000000.0  ...            NaN
+Total Other Finance Cost                               1630000000.0  ...            NaN
+Interest Expense Non Operating                       217720000000.0  ...            NaN
+Interest Income Non Operating                        107450000000.0  ...            NaN
+Operating Income                                    1116660000000.0  ...            NaN
+Operating Expense                                   1147990000000.0  ...            NaN
+Other Operating Expenses                             530450000000.0  ...            NaN
+Selling General And Administration                   371420000000.0  ...            NaN
+Selling And Marketing Expense                        209890000000.0  ...            NaN
+General And Administrative Expense                   161530000000.0  ...            NaN
+Rent And Landing Fees                                  6010000000.0  ...            NaN
+Gross Profit                                        2264650000000.0  ...            NaN
+Cost Of Revenue                                     6745990000000.0  ...            NaN
+Total Revenue                                       9010640000000.0  ...            NaN
+Operating Revenue                                   9010640000000.0  ...            NaN
+
+[51 rows x 5 columns]
+info:
+{'address1': 'Maker Chambers IV', 'address2': '3rd Floor 222 Nariman Point', 'city': 'Mumbai', 'zip': '400021', 'country': 'India', 'phone': '91 22 3555 5000', 'fax': '91 22 2204 2268', 'website': 'https://www.ril.com', 'industry': 'Oil & Gas Refining & Marketing', 'industryKey': 'oil-gas-refining-marketing', 'industryDisp': 'Oil & Gas Refining & Marketing', 'sector': 'Energy', 'sectorKey': 'energy', 'sectorDisp': 'Energy', 'longBusinessSummary': 'Reliance Industries Limited engages in hydrocarbon exploration and production, oil and chemicals, textile, retail, digital, material and composites, renewables, and financial services businesses worldwide. It operates through Oil to Chemicals, Oil and Gas, Retail, Digital Services, and Others segments. The company produces and markets petroleum products, such as liquefied petroleum gas, propylene, naphtha, gasoline, jet/aviation turbine fuel, kerosene oil, diesel, sulphur, and petroleum coke. It also provides petrochemicals, including high-density and low-density polyethylene (PE), linear low-density PE, polyester fibers and yarns, polypropylene, polyvinyl chloride, purified terephthalic acid, ethylene glycols and oxide, paraxylene, ortho xylene, benzene, linear alkyl benzene and paraffin, poly butadiene rubber, styrene butadiene rubber, butyl rubber, and polyethylene terephthalate. In addition, the company manufactures and markets yarns, fabrics, apparel, and auto furnishings; explores, develops, and produces crude oil and natural gas; and operates various stores comprising neighborhood, supermarket, hypermarket, wholesale cash and carry, specialty, online stores, as well as stores that offer apparel, beauty and cosmetics, accessories, footwear, consumer electronics, connectivity products, and others. Further, the company provides range of digital television, gaming, broadband, and telecommunication services under the Jio brand name; and non-banking financial and insurance broking services. Additionally, it operates news and entertainment platforms, and Network18 and television channels; publishes magazines; and offers highway hospitality and fleet management services. The company was founded in 1957 and is based in Mumbai, India.', 'fullTimeEmployees': 347362, 'companyOfficers': [{'maxAge': 1, 'name': 'Mr. Mukesh Dhirubhai Ambani', 'age': 67, 'title': 'Chairman & MD', 'yearBorn': 1957, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Nikhil Rasiklal Meswani', 'age': 58, 'title': 'Executive Director', 'yearBorn': 1966, 'fiscalYear': 2024, 'totalPay': 253100000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Hital Rasiklal Meswani', 'age': 56, 'title': 'Executive Director', 'yearBorn': 1968, 'fiscalYear': 2024, 'totalPay': 254200000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Panda Madhusudana Siva Prasad', 'age': 72, 'title': 'Executive Director', 'yearBorn': 1952, 'fiscalYear': 2024, 'totalPay': 179300000, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Parul  Sharma', 'title': 'Group President', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Srikanth  Venkatachari', 'age': 58, 'title': 'Chief Financial Officer', 'yearBorn': 1966, 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Hemen Kanu Modi', 'title': 'Vice President of Investor Relations', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Savithri  Parekh', 'title': 'Company Secretary & Compliance Officer', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Mr. Rohit  Bansal', 'title': 'Group Head of Communications', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}, {'maxAge': 1, 'name': 'Ms. Gayatri  Yadav', 'title': 'Group Chief Marketing Officer & Executive VP of Strategic Initiatives', 'fiscalYear': 2024, 'exercisedValue': 0, 'unexercisedValue': 0}], 'auditRisk': 5, 'boardRisk': 9, 'compensationRisk': 6, 'shareHolderRightsRisk': 1, 'overallRisk': 8, 'governanceEpochDate': 1740787200, 'compensationAsOfEpochDate': 1735603200, 'irWebsite': 'http://ril.com/html/investor/investor.html', 'executiveTeam': [], 'maxAge': 86400, 'priceHint': 2, 'previousClose': 1269.15, 'open': 1275.0, 'dayLow': 1270.1, 'dayHigh': 1281.0, 'regularMarketPreviousClose': 1269.15, 'regularMarketOpen': 1275.0, 'regularMarketDayLow': 1270.1, 'regularMarketDayHigh': 1281.0, 'dividendRate': 5.0, 'dividendYield': 0.39, 'exDividendDate': 1724025600, 'payoutRatio': 0.097799994, 'fiveYearAvgDividendYield': 0.44, 'beta': 0.651, 'trailingPE': 24.953077, 'forwardPE': 17.764091, 'volume': 21775832, 'regularMarketVolume': 21775832, 'averageVolume': 11332123, 'averageVolume10days': 12083719, 'averageDailyVolume10Day': 12083719, 'bid': 0.0, 'ask': 0.0, 'bidSize': 0, 'askSize': 0, 'marketCap': 17272077811712, 'fiftyTwoWeekLow': 1156.0, 'fiftyTwoWeekHigh': 1608.8, 'priceToSalesTrailing12Months': 1.8377718, 'fiftyDayAverage': 1240.262, 'twoHundredDayAverage': 1361.7156, 'trailingAnnualDividendRate': 0.0, 'trailingAnnualDividendYield': 0.0, 'currency': 'INR', 'tradeable': False, 'enterpriseValue': 19951272329216, 'profitMargins': 0.07362, 'floatShares': 6183022336, 'sharesOutstanding': 13532399616, 'heldPercentInsiders': 0.49665, 'heldPercentInstitutions': 0.2792, 'impliedSharesOutstanding': 13656899584, 'bookValue': 605.573, 'priceToBook': 2.1076732, 'lastFiscalYearEnd': 1711843200, 'nextFiscalYearEnd': 1743379200, 'mostRecentQuarter': 1735603200, 'earningsQuarterlyGrowth': 0.074, 'netIncomeToCommon': 691919978496, 'trailingEps': 51.15, 'forwardEps': 71.85, 'lastSplitFactor': '2:1', 'lastSplitDate': 1730073600, 'enterpriseToRevenue': 2.123, 'enterpriseToEbitda': 12.388, '52WeekChange': -0.12774694, 'SandP52WeekChange': 0.08190584, 'lastDividendValue': 5.0, 'lastDividendDate': 1724025600, 'quoteType': 'EQUITY', 'currentPrice': 1276.35, 'targetHighPrice': 1827.0, 'targetLowPrice': 1300.0, 'targetMeanPrice': 1558.3529, 'targetMedianPrice': 1554.5, 'recommendationMean': 1.58333, 'recommendationKey': 'buy', 'numberOfAnalystOpinions': 34, 'totalCash': 2147900063744, 'totalCashPerShare': 158.718, 'ebitda': 1610482450432, 'totalDebt': 3575249895424, 'totalRevenue': 9398380396544, 'debtToEquity': 37.464, 'revenuePerShare': 694.508, 'grossProfits': 3270549962752, 'earningsGrowth': 0.074, 'revenueGrowth': 0.066, 'grossMargins': 0.34799, 'ebitdaMargins': 0.17136, 'operatingMargins': 0.12753999, 'financialCurrency': 'INR', 'symbol': 'RELIANCE.NS', 'language': 'en-US', 'region': 'US', 'typeDisp': 'Equity', 'quoteSourceName': 'Delayed Quote', 'triggerable': True, 'customPriceAlertConfidence': 'HIGH', 'marketState': 'POSTPOST', 'hasPrePostMarketData': False, 'firstTradeDateMilliseconds': 820467900000, 'regularMarketChange': 7.199951, 'regularMarketDayRange': '1270.1 - 1281.0', 'fullExchangeName': 'NSE', 'averageDailyVolume3Month': 11332123, 'fiftyTwoWeekLowChange': 120.349976, 'fiftyTwoWeekLowChangePercent': 0.104108974, 'fiftyTwoWeekRange': '1156.0 - 1608.8', 'fiftyTwoWeekHighChange': -332.45007, 'fiftyTwoWeekHighChangePercent': -0.20664474, 'fiftyTwoWeekChangePercent': -12.774694, 'earningsTimestamp': 1737025140, 'earningsTimestampStart': 1745233140, 'earningsTimestampEnd': 1745582400, 'earningsCallTimestampStart': 1737025140, 'earningsCallTimestampEnd': 1737025140, 'isEarningsDateEstimate': True, 'epsTrailingTwelveMonths': 51.15, 'epsForward': 71.85, 'epsCurrentYear': 51.67971, 'priceEpsCurrentYear': 24.697313, 'fiftyDayAverageChange': 36.088013, 'fiftyDayAverageChangePercent': 0.02909709, 'twoHundredDayAverageChange': -85.3656, 'twoHundredDayAverageChangePercent': -0.062689744, 'sourceInterval': 15, 'exchangeDataDelayedBy': 15, 'averageAnalystRating': '1.6 - Buy', 'cryptoTradeable': False, 'corporateActions': [], 'regularMarketTime': 1742551200, 'exchange': 'NSI', 'messageBoardId': 'finmb_878373', 'exchangeTimezoneName': 'Asia/Kolkata', 'exchangeTimezoneShortName': 'IST', 'gmtOffSetMilliseconds': 19800000, 'market': 'in_market', 'esgPopulated': False, 'shortName': 'RELIANCE INDUSTRIES LTD', 'longName': 'Reliance Industries Limited', 'regularMarketChangePercent': 0.56730497, 'regularMarketPrice': 1276.35, 'trailingPegRatio': None}
+insider_purchases:
+       Insider Purchases Last 6m      Shares  Trans
+0                      Purchases           0      0
+1                          Sales        <NA>      0
+2    Net Shares Purchased (Sold)           0      0
+3      Total Insider Shares Held  6721088512   <NA>
+4  % Net Shares Purchased (Sold)        <NA>   <NA>
+5                   % Buy Shares        <NA>   <NA>
+6                  % Sell Shares        <NA>   <NA>
+insider_roster_holders:
+               Name    Position  ... Shares Owned Directly Position Direct Date
+0  Agarwal (Shobha)  UNREPORTED  ...                581905           2023-12-11
+1     Keer (Dipali)  UNREPORTED  ...                  1200           2023-11-23
+
+[2 rows x 7 columns]
+insider_transactions:
+   Shares URL                            Text  ... Start Date Ownership    Value
+0  150000       Gift at price 0.00 per share.  ... 2023-12-11         D      NaN
+1     933      Sale at price 28.77 per share.  ... 2023-11-23         D  26845.0
+2  150000       Gift at price 0.00 per share.  ... 2023-09-22         D      NaN
+3  125000       Gift at price 0.00 per share.  ... 2023-05-22         D      NaN
+
+[4 rows x 9 columns]
+institutional_holders:
+Empty DataFrame
+Columns: []
+Index: []
+isin:
+INE002A01018
+major_holders:
+Breakdown                         Value
+insidersPercentHeld             0.49665
+institutionsPercentHeld         0.27920
+institutionsFloatPercentHeld    0.55468
+institutionsCount             411.00000
+mutualfund_holders:
+Empty DataFrame
+Columns: []
+Index: []
+news:
+[{'id': 'adce61dc-29f8-3d0c-b8f5-b4ac67fa13c3', 'content': {'id': 'adce61dc-29f8-3d0c-b8f5-b4ac67fa13c3', 'contentType': 'STORY', 'title': 'Musk’s Starlink Signs Pact With Ambani’s Jio After Rival Bharti', 'description': '', 'summary': '(Bloomberg) -- Follow Bloomberg India on WhatsApp for exclusive content and analysis on what billionaires, businesses and markets are doing. Sign up here.Most Read from BloombergICE Eyes Massive California Tent Facility Amid Space ConstraintsHow Britain’s Most Bike-Friendly New Town Got BuiltThe Dark Prophet of Car-Clogged CitiesWashington, DC, Region Braces for ‘Devastating’ Cuts from CongressNYC Plans for Flood Protection Without Federal FundsBillionaire Mukesh Ambani-controlled Jio Platforms', 'pubDate': '2025-03-12T12:00:54Z', 'displayTime': '2025-03-12T12:00:54Z', 'isHosted': True, 'bypassModal': False, 'previewUrl': None, 'thumbnail': {'originalUrl': 'https://media.zenfs.com/en/bloomberg_technology_68/f59a191c8809286496c93792f2c659fd', 'originalWidth': 2000, 'originalHeight': 1333, 'caption': '', 'resolutions': [{'url': 'https://s.yimg.com/uu/api/res/1.2/4l.4t1K8jOF8.24FucLUUw--~B/aD0xMzMzO3c9MjAwMDthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/bloomberg_technology_68/f59a191c8809286496c93792f2c659fd', 'width': 2000, 'height': 1333, 'tag': 'original'}, {'url': 'https://s.yimg.com/uu/api/res/1.2/JRD3rLcAdpUCNhkYs5urIg--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/bloomberg_technology_68/f59a191c8809286496c93792f2c659fd', 'width': 170, 'height': 128, 'tag': '170x128'}]}, 'provider': {'displayName': 'Bloomberg', 'url': 'https://www.bloomberg.com/'}, 'canonicalUrl': {'url': 'https://finance.yahoo.com/news/musk-starlink-signs-pact-ambani-083705215.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}, 'clickThroughUrl': {'url': 'https://finance.yahoo.com/news/musk-starlink-signs-pact-ambani-083705215.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}, 'metadata': {'editorsPick': False}, 'finance': {'premiumFinance': {'isPremiumNews': False, 'isPremiumFreeNews': False}}, 'storyline': None}}, {'id': '0c7ec0f0-3bcb-3aa3-aafa-c0bc0b6014f6', 'content': {'id': '0c7ec0f0-3bcb-3aa3-aafa-c0bc0b6014f6', 'contentType': 'STORY', 'title': "India's Reliance Industries seeks extension for EV battery plant setup", 'description': '', 'summary': "In March 2022, Reliance secured incentives under the government's production-linked incentive (PLI) scheme to establish 5 gigawatts (GW) of local manufacturing capacity for advanced chemistry cells (ACCs).  Reliance also said that the unit has received a letter from the Ministry of Heavy Industries imposing a penalty due to the delay.  The Indian government launched the incentive scheme to boost local production of batteries as the country aims to increase EV sales in India to 30% of total car sales.", 'pubDate': '2025-03-04T11:46:34Z', 'displayTime': '2025-03-04T11:46:34Z', 'isHosted': True, 'bypassModal': False, 'previewUrl': None, 'thumbnail': {'originalUrl': 'https://media.zenfs.com/en/reuters.com/c481b7563cf7588fc8c513101458fb84', 'originalWidth': 800, 'originalHeight': 580, 'caption': 'A guard walks past the Reliance Industries logo near the entrance of Dhirubhai Ambani Knowledge City in Navi Mumbai', 'resolutions': [{'url': 'https://s.yimg.com/uu/api/res/1.2/5.9BK9jZ5zcFYXKZVDs7Jg--~B/aD01ODA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/c481b7563cf7588fc8c513101458fb84', 'width': 800, 'height': 580, 'tag': 'original'}, {'url': 'https://s.yimg.com/uu/api/res/1.2/NSHmbjCS3GsUeYcOQzA.xQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/c481b7563cf7588fc8c513101458fb84', 'width': 170, 'height': 128, 'tag': '170x128'}]}, 'provider': {'displayName': 'Reuters', 'url': 'https://www.reuters.com/'}, 'canonicalUrl': {'url': 'https://sg.finance.yahoo.com/news/indias-reliance-industries-seeks-extension-114634971.html', 'site': 'finance', 'region': 'SG', 'lang': 'en-SG'}, 'clickThroughUrl': {'url': 'https://finance.yahoo.com/news/indias-reliance-industries-seeks-extension-114634971.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}, 'metadata': {'editorsPick': False}, 'finance': {'premiumFinance': {'isPremiumNews': False, 'isPremiumFreeNews': False}}, 'storyline': None}}, {'id': '2cc3270c-9f2f-3b4e-9ef8-043ab26f4aec', 'content': {'id': '2cc3270c-9f2f-3b4e-9ef8-043ab26f4aec', 'contentType': 'STORY', 'title': "India's Reliance says oil ministry raised $2.81 billion demand in gas dispute case", 'description': '', 'summary': "The company has been legally advised that the division bench judgment and this provisional demand are unsustainable and is taking steps to challenge the judgment, Reliance said in an exchange filing, adding it does not expect any liability due to this case.  Reliance had earlier said that it would appeal the decision in the country's Supreme Court.", 'pubDate': '2025-03-04T03:28:59Z', 'displayTime': '2025-03-04T03:28:59Z', 'isHosted': True, 'bypassModal': False, 'previewUrl': None, 'thumbnail': {'originalUrl': 'https://media.zenfs.com/en/reuters.com/e85c03bae43295ac560c824c0f201427', 'originalWidth': 800, 'originalHeight': 580, 'caption': 'FILE PHOTO: A guard walks past the Reliance Industries logo near the entrance of Dhirubhai Ambani Knowledge City in Navi Mumbai', 'resolutions': [{'url': 'https://s.yimg.com/uu/api/res/1.2/jX20588rkBBY3ntEtDrC3Q--~B/aD01ODA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/e85c03bae43295ac560c824c0f201427', 'width': 800, 'height': 580, 'tag': 'original'}, {'url': 'https://s.yimg.com/uu/api/res/1.2/pgnV0_mKmp80vDCA2Yrtzw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/e85c03bae43295ac560c824c0f201427', 'width': 170, 'height': 128, 'tag': '170x128'}]}, 'provider': {'displayName': 'Reuters', 'url': 'https://www.reuters.com/'}, 'canonicalUrl': {'url': 'https://sg.finance.yahoo.com/news/indias-reliance-says-petroleum-ministry-032859243.html', 'site': 'finance', 'region': 'SG', 'lang': 'en-SG'}, 'clickThroughUrl': {'url': 'https://finance.yahoo.com/news/indias-reliance-says-petroleum-ministry-032859243.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}, 'metadata': {'editorsPick': False}, 'finance': {'premiumFinance': {'isPremiumNews': False, 'isPremiumFreeNews': False}}, 'storyline': None}}, {'id': '1f83b95c-d2fd-3065-8f91-e57f67c149df', 'content': {'id': '1f83b95c-d2fd-3065-8f91-e57f67c149df', 'contentType': 'STORY', 'title': "India's Reliance launches home-grown cola brand 'Campa' in UAE", 'description': '', 'summary': "The FMCG arm of Mukesh Ambani's Reliance Group said it has partnered with UAE-based food and beverage firm Agthia Group for the launch, but did not disclose any details of the deal, including the financial terms.  It was a prominent brand in the 1970s and 1980s, but waned after PepsiCo and Coca-Cola entered India in 1991 and surged in popularity.", 'pubDate': '2025-02-18T11:59:04Z', 'displayTime': '2025-02-18T11:59:04Z', 'isHosted': True, 'bypassModal': False, 'previewUrl': None, 'thumbnail': {'originalUrl': 'https://media.zenfs.com/en/reuters.com/88d1069a7795430e37e4d8b7fbb98c54', 'originalWidth': 800, 'originalHeight': 600, 'caption': 'Bottles of Campa Cola are displayed at a Reliance Smart supermarket in Mumbai', 'resolutions': [{'url': 'https://s.yimg.com/uu/api/res/1.2/EBnohotWoRsAbeZfgKGqJA--~B/aD02MDA7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/88d1069a7795430e37e4d8b7fbb98c54', 'width': 800, 'height': 600, 'tag': 'original'}, {'url': 'https://s.yimg.com/uu/api/res/1.2/0MgxHnEz86ig5mA0Hd0UxQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/88d1069a7795430e37e4d8b7fbb98c54', 'width': 170, 'height': 128, 'tag': '170x128'}]}, 'provider': {'displayName': 'Reuters', 'url': 'https://www.reuters.com/'}, 'canonicalUrl': {'url': 'https://sg.finance.yahoo.com/news/indias-reliance-launches-home-grown-115904352.html', 'site': 'finance', 'region': 'SG', 'lang': 'en-SG'}, 'clickThroughUrl': {'url': 'https://finance.yahoo.com/news/indias-reliance-launches-home-grown-115904352.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}, 'metadata': {'editorsPick': False}, 'finance': {'premiumFinance': {'isPremiumNews': False, 'isPremiumFreeNews': False}}, 'storyline': None}}, {'id': 'c8cb0255-89a1-31da-a6a2-ff3ea6c6001e', 'content': {'id': 'c8cb0255-89a1-31da-a6a2-ff3ea6c6001e', 'contentType': 'STORY', 'title': 'Delhi HC rules against Reliance Industries in $1.7bn gas dispute case', 'description': '', 'summary': "The case centres on ONGC's claim that RIL extracted gas migrating from its adjacent blocks.", 'pubDate': '2025-02-17T14:37:14Z', 'displayTime': '2025-02-17T14:37:14Z', 'isHosted': True, 'bypassModal': False, 'previewUrl': None, 'thumbnail': {'originalUrl': 'https://media.zenfs.com/en/offshore_technology_431/a30be71bdb9741760d088ed20e10f2a7', 'originalWidth': 1440, 'originalHeight': 810, 'caption': "A court-ordered confirmed the gas pool's continuity", 'resolutions': [{'url': 'https://s.yimg.com/uu/api/res/1.2/3c_35h.9O03i4HOuYPoBbw--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/offshore_technology_431/a30be71bdb9741760d088ed20e10f2a7', 'width': 1440, 'height': 810, 'tag': 'original'}, {'url': 'https://s.yimg.com/uu/api/res/1.2/3ukFxqhPOF8hxv.fjpwwXA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/offshore_technology_431/a30be71bdb9741760d088ed20e10f2a7', 'width': 170, 'height': 128, 'tag': '170x128'}]}, 'provider': {'displayName': 'Offshore Technology', 'url': 'https://www.globaldata.com/'}, 'canonicalUrl': {'url': 'https://www.offshore-technology.com/news/delhi-hc-ril-gas-dispute/', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}, 'clickThroughUrl': {'url': 'https://finance.yahoo.com/news/delhi-hc-rules-against-reliance-143714872.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}, 'metadata': {'editorsPick': False}, 'finance': {'premiumFinance': {'isPremiumNews': False, 'isPremiumFreeNews': False}}, 'storyline': None}}, {'id': '8387f3cc-6169-3546-a4fd-976b1a5412ac', 'content': {'id': '8387f3cc-6169-3546-a4fd-976b1a5412ac', 'contentType': 'STORY', 'title': 'Reliance Industries makes sports drinks debut', 'description': '', 'summary': 'Reliance said the Spinner brand would “lead the movement in creating a sports beverage category of up to $1bn in the next three years”.', 'pubDate': '2025-02-11T16:24:39Z', 'displayTime': '2025-02-11T16:24:39Z', 'isHosted': True, 'bypassModal': False, 'previewUrl': None, 'thumbnail': {'originalUrl': 'https://media.zenfs.com/en/just_drinks_442/f1265d625fd6d08e05ac030a7cdd45aa', 'originalWidth': 1575, 'originalHeight': 887, 'caption': '', 'resolutions': [{'url': 'https://s.yimg.com/uu/api/res/1.2/W1WYCGgGHqFhssfqB3L8GQ--~B/aD04ODc7dz0xNTc1O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/just_drinks_442/f1265d625fd6d08e05ac030a7cdd45aa', 'width': 1575, 'height': 887, 'tag': 'original'}, {'url': 'https://s.yimg.com/uu/api/res/1.2/db4Y8Hblq_.dYC_HYhxemw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/just_drinks_442/f1265d625fd6d08e05ac030a7cdd45aa', 'width': 170, 'height': 128, 'tag': '170x128'}]}, 'provider': {'displayName': 'Just Drinks', 'url': 'https://www.globaldata.com/'}, 'canonicalUrl': {'url': 'https://www.just-drinks.com/news/reliance-spinner-sports-drinks-debut/', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}, 'clickThroughUrl': {'url': 'https://finance.yahoo.com/news/reliance-industries-makes-sports-drinks-132752024.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}, 'metadata': {'editorsPick': False}, 'finance': {'premiumFinance': {'isPremiumNews': False, 'isPremiumFreeNews': False}}, 'storyline': None}}, {'id': '27a275a0-c143-3d16-827e-9ca2c908f9cc', 'content': {'id': '27a275a0-c143-3d16-827e-9ca2c908f9cc', 'contentType': 'STORY', 'title': 'Shein makes India comeback via strategic deal with Reliance', 'description': '', 'summary': 'The Shein app offers low-cost Western apparel, with dresses for as little as Rs350 ($4).', 'pubDate': '2025-02-03T10:51:04Z', 'displayTime': '2025-02-03T10:51:04Z', 'isHosted': True, 'bypassModal': False, 'previewUrl': None, 'thumbnail': {'originalUrl': 'https://media.zenfs.com/en/retail_insight_network_724/dab8a74139e3927cde995443cd37bfb2', 'originalWidth': 1440, 'originalHeight': 810, 'caption': "Reliance Retail launches dedicated app for China's Shein brand. Credit: Diego Thomazini/Shutterstock.", 'resolutions': [{'url': 'https://s.yimg.com/uu/api/res/1.2/5Ef8riSlgikzaL3S2G6AmQ--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/retail_insight_network_724/dab8a74139e3927cde995443cd37bfb2', 'width': 1440, 'height': 810, 'tag': 'original'}, {'url': 'https://s.yimg.com/uu/api/res/1.2/4wglxGXFgJ9Tl7ZswnFVwA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/retail_insight_network_724/dab8a74139e3927cde995443cd37bfb2', 'width': 170, 'height': 128, 'tag': '170x128'}]}, 'provider': {'displayName': 'Retail Insight Network', 'url': 'https://www.globaldata.com/'}, 'canonicalUrl': {'url': 'https://www.retail-insight-network.com/news/shein-india-reliance-app/', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}, 'clickThroughUrl': {'url': 'https://finance.yahoo.com/news/shein-makes-india-comeback-via-105104009.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}, 'metadata': {'editorsPick': False}, 'finance': {'premiumFinance': {'isPremiumNews': False, 'isPremiumFreeNews': False}}, 'storyline': None}}, {'id': '81ddbfb8-9a07-3e98-8199-582704b1e318', 'content': {'id': '81ddbfb8-9a07-3e98-8199-582704b1e318', 'contentType': 'STORY', 'title': "Billionaire Ambani's Reliance brings Shein back to India after 2020 app ban", 'description': '', 'summary': "MUMBAI (Reuters) -Reliance Retail has launched an app in India to sell fashionwear from China's Shein under a licensing deal, almost five years since Shein's app was banned in the country after getting caught up in a diplomatic tussle.  Reliance, owned by billionaire Mukesh Ambani, launched the app on Saturday morning, said a person with direct knowledge of Reliance's launch plans.  Neither parent Reliance Industries nor Shein responded to requests for comment outside of business hours.", 'pubDate': '2025-02-02T05:50:50Z', 'displayTime': '2025-02-03T02:29:54Z', 'isHosted': True, 'bypassModal': False, 'previewUrl': None, 'thumbnail': {'originalUrl': 'https://media.zenfs.com/en/reuters.com/9a33e51e03fbd735390a85441ae00980', 'originalWidth': 800, 'originalHeight': 567, 'caption': 'A company logo for fashion brand Shein is seen on a rail of clothing on its Christmas bus as part of a nationwide promotional tour in Liverpool, Britain', 'resolutions': [{'url': 'https://s.yimg.com/uu/api/res/1.2/uGCSyPjJKWrL6BQ2sdaEYw--~B/aD01Njc7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/9a33e51e03fbd735390a85441ae00980', 'width': 800, 'height': 567, 'tag': 'original'}, {'url': 'https://s.yimg.com/uu/api/res/1.2/V8cTlj3.DTje0NHfUHAXQQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/9a33e51e03fbd735390a85441ae00980', 'width': 170, 'height': 128, 'tag': '170x128'}]}, 'provider': {'displayName': 'Reuters', 'url': 'https://www.reuters.com/'}, 'canonicalUrl': {'url': 'https://ca.finance.yahoo.com/news/billionaire-ambanis-reliance-brings-shein-055050457.html', 'site': 'finance', 'region': 'CA', 'lang': 'en-CA'}, 'clickThroughUrl': {'url': 'https://finance.yahoo.com/news/billionaire-ambanis-reliance-brings-shein-055050457.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}, 'metadata': {'editorsPick': False}, 'finance': {'premiumFinance': {'isPremiumNews': False, 'isPremiumFreeNews': False}}, 'storyline': None}}, {'id': 'b4b1b586-efa5-3103-a940-04b04fd26488', 'content': {'id': 'b4b1b586-efa5-3103-a940-04b04fd26488', 'contentType': 'STORY', 'title': 'Saks Fifth Avenue Has Designs on\xa0India', 'description': '', 'summary': 'Saks Global has signed a franchising agreement with the Mumbai-based Reliance conglomerate to launch Saks Fifth Avenue and Saks Off 5th stores in India.', 'pubDate': '2025-01-21T21:40:31Z', 'displayTime': '2025-01-21T21:40:31Z', 'isHosted': True, 'bypassModal': False, 'previewUrl': None, 'thumbnail': {'originalUrl': 'https://media.zenfs.com/en/wwd_409/2604f88ae8b00ba10b8e0225285f83a4', 'originalWidth': 2048, 'originalHeight': 1366, 'caption': '', 'resolutions': [{'url': 'https://s.yimg.com/uu/api/res/1.2/Fpb7Mv_yo9x269.WT5Ctvg--~B/aD0xMzY2O3c9MjA0ODthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/wwd_409/2604f88ae8b00ba10b8e0225285f83a4', 'width': 2048, 'height': 1366, 'tag': 'original'}, {'url': 'https://s.yimg.com/uu/api/res/1.2/2ljAKf7iajrexlnOAKfB8Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/wwd_409/2604f88ae8b00ba10b8e0225285f83a4', 'width': 170, 'height': 128, 'tag': '170x128'}]}, 'provider': {'displayName': 'WWD', 'url': 'https://wwd.com/'}, 'canonicalUrl': {'url': 'https://wwd.com/business-news/retail/saks-global-has-designs-on-india-through-agreement-with-reliance-1236863249/', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}, 'clickThroughUrl': {'url': 'https://finance.yahoo.com/news/saks-fifth-avenue-designs-india-214031990.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}, 'metadata': {'editorsPick': False}, 'finance': {'premiumFinance': {'isPremiumNews': False, 'isPremiumFreeNews': False}}, 'storyline': None}}, {'id': '4e81c486-ade5-3b56-8027-c7be5505ef76', 'content': {'id': '4e81c486-ade5-3b56-8027-c7be5505ef76', 'contentType': 'STORY', 'title': 'Reliance set for best week since June as retail business fuels profit beat', 'description': '', 'summary': '(Reuters) -Shares of Reliance Industries rose nearly 5% on Friday and were set for their best week in six months, as the company beat quarterly profit estimates on a boost from its retail business, which had dragged the stock\'s performance in 2024.  Reliance, India\'s most valuable company and the second-top heavyweight stock on the benchmark Nifty 50 index, was last up 2.2% and has gained 3.4% this week.  "Reliance is back on a growth path after six months of challenges," Morgan Stanley said in a note, adding that "the risk of earnings downgrades" would unwind.', 'pubDate': '2025-01-17T04:17:41Z', 'displayTime': '2025-01-17T05:45:27Z', 'isHosted': True, 'bypassModal': False, 'previewUrl': None, 'thumbnail': {'originalUrl': 'https://media.zenfs.com/en/reuters.com/1b0d695f6c9c851b7fc84c2cdf66fff1', 'originalWidth': 800, 'originalHeight': 579, 'caption': 'Customers walk past stores of Reliance Industries Ltd, in Mumbai', 'resolutions': [{'url': 'https://s.yimg.com/uu/api/res/1.2/Skj.XBCjEOwmPuD00owVzQ--~B/aD01Nzk7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/1b0d695f6c9c851b7fc84c2cdf66fff1', 'width': 800, 'height': 579, 'tag': 'original'}, {'url': 'https://s.yimg.com/uu/api/res/1.2/Avr4IF4tLK6Mw.sjlybltw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/1b0d695f6c9c851b7fc84c2cdf66fff1', 'width': 170, 'height': 128, 'tag': '170x128'}]}, 'provider': {'displayName': 'Reuters', 'url': 'https://www.reuters.com/'}, 'canonicalUrl': {'url': 'https://sg.finance.yahoo.com/news/reliance-gains-retail-telecom-growth-041741229.html', 'site': 'finance', 'region': 'SG', 'lang': 'en-SG'}, 'clickThroughUrl': {'url': 'https://finance.yahoo.com/news/reliance-gains-retail-telecom-growth-041741229.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}, 'metadata': {'editorsPick': False}, 'finance': {'premiumFinance': {'isPremiumNews': False, 'isPremiumFreeNews': False}}, 'storyline': None}}]
+option_chain:
+<bound method Ticker.option_chain of yfinance.Ticker object <RELIANCE.NS>>
+options:
+()
+proxy:
+None
+quarterly_balance_sheet:
+                                                       2024-09-30  ...       2023-09-30
+Ordinary Shares Number                              13532458028.0  ...    13532188028.0
+Share Issued                                        13532458028.0  ...    13532188028.0
+Net Debt                                          2459840000000.0  ...  2268600000000.0
+Total Debt                                        3575250000000.0  ...  3166970000000.0
+Tangible Book Value                               4529520000000.0  ...  4022020000000.0
+...                                                           ...  ...              ...
+Cash Cash Equivalents And Short Term Investments  2326980000000.0  ...  2016800000000.0
+Other Short Term Investments                      1423450000000.0  ...  1328530000000.0
+Cash And Cash Equivalents                          903530000000.0  ...   688270000000.0
+Cash Equivalents                                              NaN  ...              NaN
+Cash Financial                                                NaN  ...              NaN
+
+[77 rows x 3 columns]
+quarterly_balancesheet:
+                                                       2024-09-30  ...       2023-09-30
+Ordinary Shares Number                              13532458028.0  ...    13532188028.0
+Share Issued                                        13532458028.0  ...    13532188028.0
+Net Debt                                          2459840000000.0  ...  2268600000000.0
+Total Debt                                        3575250000000.0  ...  3166970000000.0
+Tangible Book Value                               4529520000000.0  ...  4022020000000.0
+...                                                           ...  ...              ...
+Cash Cash Equivalents And Short Term Investments  2326980000000.0  ...  2016800000000.0
+Other Short Term Investments                      1423450000000.0  ...  1328530000000.0
+Cash And Cash Equivalents                          903530000000.0  ...   688270000000.0
+Cash Equivalents                                              NaN  ...              NaN
+Cash Financial                                                NaN  ...              NaN
+
+[77 rows x 3 columns]
+quarterly_cash_flow:
+Empty DataFrame
+Columns: []
+Index: []
+quarterly_cashflow:
+Empty DataFrame
+Columns: []
+Index: []
+quarterly_earnings:
+None
+quarterly_financials:
+                                                         2024-12-31  ... 2023-06-30
+Tax Effect Of Unusual Items                                     0.0  ...        NaN
+Tax Rate For Calcs                                         0.238767  ...        NaN
+Normalized EBITDA                                    348220000000.0  ...        NaN
+Net Income From Continuing Operation Net Minori...   185400000000.0  ...        NaN
+Reconciled Cost Of Revenue                          1661400000000.0  ...        NaN
+EBITDA                                               348220000000.0  ...        NaN
+EBIT                                                 348220000000.0  ...        NaN
+Net Interest Income                                  -61790000000.0  ...        NaN
+Interest Expense                                      61790000000.0  ...        NaN
+Normalized Income                                    185400000000.0  ...        NaN
+Net Income From Continuing And Discontinued Ope...   185400000000.0  ...        NaN
+Total Expenses                                      2093780000000.0  ...        NaN
+Diluted Average Shares                                13532846715.0  ...        NaN
+Basic Average Shares                                  13532846715.0  ...        NaN
+Diluted EPS                                                    13.7  ...        NaN
+Basic EPS                                                      13.7  ...        NaN
+Diluted NI Availto Com Stockholders                  185400000000.0  ...        NaN
+Net Income Common Stockholders                       185400000000.0  ...        NaN
+Otherunder Preferred Stock Dividend                             0.0  ...        NaN
+Net Income                                           185400000000.0  ...        NaN
+Minority Interests                                   -33900000000.0  ...        NaN
+Net Income Including Noncontrolling Interests        219300000000.0  ...        NaN
+Net Income Discontinuous Operations                             NaN  ...        0.0
+Net Income Continuous Operations                     219300000000.0  ...        NaN
+Tax Provision                                         68390000000.0  ...        NaN
+Pretax Income                                        286430000000.0  ...        NaN
+Other Non Operating Income Expenses                   42140000000.0  ...        NaN
+Net Non Operating Interest Income Expense            -61790000000.0  ...        NaN
+Interest Expense Non Operating                        61790000000.0  ...        NaN
+Operating Income                                     306080000000.0  ...        NaN
+Operating Expense                                    432380000000.0  ...        NaN
+Other Operating Expenses                             360830000000.0  ...        NaN
+Gross Profit                                         738460000000.0  ...        NaN
+Cost Of Revenue                                     1661400000000.0  ...        NaN
+Total Revenue                                       2399860000000.0  ...        NaN
+Operating Revenue                                   2399860000000.0  ...        NaN
+
+[36 rows x 7 columns]
+quarterly_income_stmt:
+                                                         2024-12-31  ... 2023-06-30
+Tax Effect Of Unusual Items                                     0.0  ...        NaN
+Tax Rate For Calcs                                         0.238767  ...        NaN
+Normalized EBITDA                                    348220000000.0  ...        NaN
+Net Income From Continuing Operation Net Minori...   185400000000.0  ...        NaN
+Reconciled Cost Of Revenue                          1661400000000.0  ...        NaN
+EBITDA                                               348220000000.0  ...        NaN
+EBIT                                                 348220000000.0  ...        NaN
+Net Interest Income                                  -61790000000.0  ...        NaN
+Interest Expense                                      61790000000.0  ...        NaN
+Normalized Income                                    185400000000.0  ...        NaN
+Net Income From Continuing And Discontinued Ope...   185400000000.0  ...        NaN
+Total Expenses                                      2093780000000.0  ...        NaN
+Diluted Average Shares                                13532846715.0  ...        NaN
+Basic Average Shares                                  13532846715.0  ...        NaN
+Diluted EPS                                                    13.7  ...        NaN
+Basic EPS                                                      13.7  ...        NaN
+Diluted NI Availto Com Stockholders                  185400000000.0  ...        NaN
+Net Income Common Stockholders                       185400000000.0  ...        NaN
+Otherunder Preferred Stock Dividend                             0.0  ...        NaN
+Net Income                                           185400000000.0  ...        NaN
+Minority Interests                                   -33900000000.0  ...        NaN
+Net Income Including Noncontrolling Interests        219300000000.0  ...        NaN
+Net Income Discontinuous Operations                             NaN  ...        0.0
+Net Income Continuous Operations                     219300000000.0  ...        NaN
+Tax Provision                                         68390000000.0  ...        NaN
+Pretax Income                                        286430000000.0  ...        NaN
+Other Non Operating Income Expenses                   42140000000.0  ...        NaN
+Net Non Operating Interest Income Expense            -61790000000.0  ...        NaN
+Interest Expense Non Operating                        61790000000.0  ...        NaN
+Operating Income                                     306080000000.0  ...        NaN
+Operating Expense                                    432380000000.0  ...        NaN
+Other Operating Expenses                             360830000000.0  ...        NaN
+Gross Profit                                         738460000000.0  ...        NaN
+Cost Of Revenue                                     1661400000000.0  ...        NaN
+Total Revenue                                       2399860000000.0  ...        NaN
+Operating Revenue                                   2399860000000.0  ...        NaN
+
+[36 rows x 7 columns]
+quarterly_incomestmt:
+                                                         2024-12-31  ... 2023-06-30
+Tax Effect Of Unusual Items                                     0.0  ...        NaN
+Tax Rate For Calcs                                         0.238767  ...        NaN
+Normalized EBITDA                                    348220000000.0  ...        NaN
+Net Income From Continuing Operation Net Minori...   185400000000.0  ...        NaN
+Reconciled Cost Of Revenue                          1661400000000.0  ...        NaN
+EBITDA                                               348220000000.0  ...        NaN
+EBIT                                                 348220000000.0  ...        NaN
+Net Interest Income                                  -61790000000.0  ...        NaN
+Interest Expense                                      61790000000.0  ...        NaN
+Normalized Income                                    185400000000.0  ...        NaN
+Net Income From Continuing And Discontinued Ope...   185400000000.0  ...        NaN
+Total Expenses                                      2093780000000.0  ...        NaN
+Diluted Average Shares                                13532846715.0  ...        NaN
+Basic Average Shares                                  13532846715.0  ...        NaN
+Diluted EPS                                                    13.7  ...        NaN
+Basic EPS                                                      13.7  ...        NaN
+Diluted NI Availto Com Stockholders                  185400000000.0  ...        NaN
+Net Income Common Stockholders                       185400000000.0  ...        NaN
+Otherunder Preferred Stock Dividend                             0.0  ...        NaN
+Net Income                                           185400000000.0  ...        NaN
+Minority Interests                                   -33900000000.0  ...        NaN
+Net Income Including Noncontrolling Interests        219300000000.0  ...        NaN
+Net Income Discontinuous Operations                             NaN  ...        0.0
+Net Income Continuous Operations                     219300000000.0  ...        NaN
+Tax Provision                                         68390000000.0  ...        NaN
+Pretax Income                                        286430000000.0  ...        NaN
+Other Non Operating Income Expenses                   42140000000.0  ...        NaN
+Net Non Operating Interest Income Expense            -61790000000.0  ...        NaN
+Interest Expense Non Operating                        61790000000.0  ...        NaN
+Operating Income                                     306080000000.0  ...        NaN
+Operating Expense                                    432380000000.0  ...        NaN
+Other Operating Expenses                             360830000000.0  ...        NaN
+Gross Profit                                         738460000000.0  ...        NaN
+Cost Of Revenue                                     1661400000000.0  ...        NaN
+Total Revenue                                       2399860000000.0  ...        NaN
+Operating Revenue                                   2399860000000.0  ...        NaN
+
+[36 rows x 7 columns]
+recommendations:
+  period  strongBuy  buy  hold  sell  strongSell
+0     0m         12   21     1     1           1
+1    -1m         13   19     2     1           2
+2    -2m         13   20     2     1           2
+3    -3m         13   17     4     1           2
+recommendations_summary:
+  period  strongBuy  buy  hold  sell  strongSell
+0     0m         12   21     1     1           1
+1    -1m         13   19     2     1           2
+2    -2m         13   20     2     1           2
+3    -3m         13   17     4     1           2
+revenue_estimate:
+                   avg            low  ...  yearAgoRevenue  growth
+period                                 ...                        
+0q       2381000000000  2381000000000  ...    2.365330e+12  0.0066
++1q                  0              0  ...             NaN     NaN
+0y       9621010446140  7653377333990  ...    5.345340e+12  0.7999
++1y     10215993487240  8050474405590  ...    5.237667e+12  0.9505
+
+[4 rows x 6 columns]
+sec_filings:
+{}
+session:
+None
