@@ -11,11 +11,11 @@ def get_stock_data(ticker):
     
     # Appending stock history related values to row
     # row.append(stock_history["Close"][0]) # Adding Closing Price
-    row[0] = stock_history["Close"][0] # Adding Closing Price
-    row[1] = stock_history["Open"][0] # Adding Openeing Price
-    row[2] = stock_history["High"][0] # Adding High
-    row[3] = stock_history["Low"][0] # Adding Low
-    row[4] = stock_history["Volume"][0] # Adding Volume
+    row[0] = stock_history["Close"].iloc[0] # Adding Closing Price
+    row[1] = stock_history["Open"].iloc[0] # Adding Openeing Price
+    row[2] = stock_history["High"].iloc[0] # Adding High
+    row[3] = stock_history["Low"].iloc[0] # Adding Low
+    row[4] = stock_history["Volume"].iloc[0] # Adding Volume
 
     # Keys for the info dictionary object in Ticker that will be sued for extracting numerical data
     info_keys = ["forwardPE", "fullTimeEmployees", "auditRisk", "boardRisk", "compensationRisk","shareHolderRightsRisk", "overallRisk", "governanceEpochDate", "compensationAsOfEpochDate","maxAge", "priceHint", "previousClose", "dayLow", "dayHigh", "regularMarketPreviousClose","regularMarketOpen", "regularMarketDayLow", "regularMarketDayHigh", "dividendRate","dividendYield", "exDividendDate", "payoutRatio", "fiveYearAvgDividendYield", "beta","trailingPE", "volume", "regularMarketVolume", "averageVolume", "averageVolume10days","averageDailyVolume10Day", "marketCap", "fiftyTwoWeekLow", "fiftyTwoWeekHigh","priceToSalesTrailing12Months", "fiftyDayAverage", "twoHundredDayAverage","trailingAnnualDividendRate", "trailingAnnualDividendYield", "enterpriseValue","profitMargins", "floatShares", "sharesOutstanding", "heldPercentInsiders","heldPercentInstitutions", "impliedSharesOutstanding", "bookValue", "priceToBook","lastFiscalYearEnd", "nextFiscalYearEnd", "mostRecentQuarter", "earningsQuarterlyGrowth","netIncomeToCommon", "trailingEps", "forwardEps", "lastSplitDate","enterpriseToRevenue", "enterpriseToEbitda", "SandP52WeekChange","lastDividendValue", "lastDividendDate", "currentPrice", "targetHighPrice", "targetLowPrice","targetMeanPrice", "targetMedianPrice", "recommendationMean", "numberOfAnalystOpinions","totalCash", "totalCashPerShare", "ebitda", "totalDebt", "totalRevenue", "debtToEquity","revenuePerShare", "grossProfits", "earningsGrowth", "revenueGrowth", "grossMargins","ebitdaMargins", "operatingMargins", "firstTradeDateMilliseconds", "regularMarketChange","averageDailyVolume3Month", "fiftyTwoWeekLowChange", "fiftyTwoWeekLowChangePercent","fiftyTwoWeekHighChange", "fiftyTwoWeekHighChangePercent", "fiftyTwoWeekChangePercent","earningsTimestamp", "earningsTimestampStart", "earningsTimestampEnd", "epsTrailingTwelveMonths","epsForward", "epsCurrentYear", "priceEpsCurrentYear", "fiftyDayAverageChange","fiftyDayAverageChangePercent", "twoHundredDayAverageChange", "twoHundredDayAverageChangePercent","sourceInterval", "exchangeDataDelayedBy", "regularMarketTime", "gmtOffSetMilliseconds","regularMarketChangePercent", "regularMarketPrice"]
