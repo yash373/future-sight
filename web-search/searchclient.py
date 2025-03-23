@@ -82,7 +82,7 @@ def get_search_results(query, num_results=20):
 
 # Example usage
 if __name__ == "__main__":
-    search_query = "python programming tutorials"
+    search_query = "python wikipedia"
     content = get_search_results(search_query)
     
     # Print the results
