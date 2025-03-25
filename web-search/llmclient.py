@@ -1,10 +1,11 @@
 from ollama import chat
 from ollama import ChatResponse
+from ollama import embeddings
 
-
+# Normal Models
 def get_response(message: str) -> str:
     response: ChatResponse = chat(
-        model="gemma3:1b",
+        model="qwen2.5:0.5b",
         messages=[
             {
                 "role": "user",
@@ -13,3 +14,8 @@ def get_response(message: str) -> str:
         ],
     )
     return response["message"]["content"]
+
+# Embedded Models Testing
+# def get_response(message: str) -> str:
+#     response = embeddings(model='nomic-embed-text', prompt=message)
+#     return response

@@ -58,7 +58,7 @@ def get_search_results(query, num_results=20):
                     results.append({
                         'url': url,
                         'title': result.get('title', ''),
-                        'text': text
+                        'text': text[:1000]
                     })
                 else:
                     results.append({
