@@ -33,7 +33,7 @@ def get_sentiment(search_question: str, stock_name: str) -> str:
 
     # Getting the response from llm
     print("Prompting llm")
-    return get_response(query)
+    return int(get_response(query))
 
 
 stock_name = "TATA CONSULTANCY SERVICES"
