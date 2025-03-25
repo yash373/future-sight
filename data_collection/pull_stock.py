@@ -1,5 +1,19 @@
 import yfinance as yf
 import numpy as np
+from web_search.stock_sentiment_assesment import get_sentiment
+
+
+# Pulls Public Sentiment
+def get_public_sentiment(ticker):
+    stock_name = ticker[:-3]
+
+    company_performance = get_sentiment(
+        stock_name=stock_name,
+        search_question=f"How does the {stock_name}'s latest earnings report impact its stock sentiment?",
+    )
+
+    return np.float64(company_performance)
+
 
 # Pulls Stock Data
 def get_stock_data(ticker):
@@ -7,7 +21,7 @@ def get_stock_data(ticker):
     stock_history = stock.history(period="1d")
 
     # This will be the row that we will eventually end up adding to the main csv file
-    row = np.ndarray(110)
+    row = np.ndarray(111)
 
     # Appending stock history related values to row
     # row.append(stock_history["Close"][0]) # Adding Closing Price
@@ -130,6 +144,8 @@ def get_stock_data(ticker):
     for index, key in enumerate(info_keys):
         # row.append(np.float64(stock.info.get(key)))
         row[5 + index] = np.float64(stock.info.get(key))
+
+    row[110] = get_public_sentiment(ticker)
 
     return row
 
