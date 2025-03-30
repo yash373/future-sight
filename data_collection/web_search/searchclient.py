@@ -81,13 +81,13 @@ def get_search_results(query, num_results=20):
     return results
 
 # Example usage
-if __name__ == "__main__":
-    search_query = "python wikipedia"
-    content = get_search_results(search_query)
+# if __name__ == "__main__":
+#     search_query = "python wikipedia"
+#     content = get_search_results(search_query)
     
-    # Print the results
-    for i, item in enumerate(content):
-        print(f"\n--- Result {i+1} ---")
-        print(f"URL: {item['url']}")
-        print(f"Title: {item['title']}")
-        print(f"Text preview: {item['text'][:150]}...")
+#     # Print the results
+#     for i, item in enumerate(content):
+#         print(f"\n--- Result {i+1} ---")
+#         print(f"URL: {item['url']}")
+#         print(f"Title: {item['title']}")
+#         print(f"Text preview: {item['text'][:150]}...")

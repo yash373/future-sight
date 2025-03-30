@@ -1,5 +1,5 @@
-from searchclient import get_search_results
-from llmclient import get_response
+from .searchclient import get_search_results
+from .llmclient import get_response
 
 
 def get_sentiment(search_question: str, stock_name: str) -> str:
@@ -36,9 +36,9 @@ def get_sentiment(search_question: str, stock_name: str) -> str:
     return int(get_response(query))
 
 
-stock_name = "TATA CONSULTANCY SERVICES"
-company_performance = get_sentiment(
-    stock_name=stock_name,
-    search_question=f"How does the {stock_name}'s latest earnings report impact its stock sentiment?",
-)
-print(company_performance)
+# stock_name = "TATA CONSULTANCY SERVICES"
+# company_performance = get_sentiment(
+#     stock_name=stock_name,
+#     search_question=f"How does the {stock_name}'s latest earnings report impact its stock sentiment?",
+# )
+# print(company_performance)

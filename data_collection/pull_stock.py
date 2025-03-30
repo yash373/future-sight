@@ -150,4 +150,4 @@ def get_stock_data(ticker):
     return row
 
 
-print(get_stock_data("RELIANCE.NS"))
+# print(get_stock_data("RELIANCE.NS"))
