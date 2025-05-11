@@ -2,8 +2,10 @@ annotated-types==0.7.0
 anyio==4.9.0
 beautifulsoup4==4.13.3
 certifi==2025.1.31
+cffi==1.17.1
 charset-normalizer==3.4.1
 click==8.1.8
+curl_cffi==0.10.0
 duckduckgo_search==7.5.3
 frozendict==2.4.6
 h11==0.14.0
@@ -18,6 +20,8 @@ pandas==2.2.3
 peewee==3.17.9
 platformdirs==4.3.6
 primp==0.14.0
+protobuf==5.29.4
+pycparser==2.22
 pydantic==2.10.6
 pydantic_core==2.27.2
 python-dateutil==2.9.0.post0
@@ -29,4 +33,5 @@ soupsieve==2.6
 typing_extensions==4.12.2
 tzdata==2025.1
 urllib3==2.3.0
-yfinance==0.2.54
+websockets==15.0.1
+yfinance==0.2.59
